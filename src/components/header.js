@@ -6,7 +6,7 @@ import { HeaderDiv, Container } from '../components/styledComponents'
 
 const Header = ({ siteTitle }) => (
   <HeaderDiv>
-    <p className= 'logo'>TBD Logo</p>
+    <p className= 'logo'>Logo Here</p>
     <div className='headerButton'>Contact Me</div>
   </HeaderDiv>
 

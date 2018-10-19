@@ -27,8 +27,8 @@ align-items: center;
   display:flex;
   justify-content: center;
   align-items:center;
-  width: 100px;
-  height: 35px;
+  width: 125px;
+  height: 45px;
   margin-right: 20px;
   
 }
@@ -67,7 +67,7 @@ height:100%;
 .avatar{
   height: 200px;
   width: 200px;
-  margin-bottom: 100px;
+  margin-bottom: 75px;
   box-shadow: 5px 10px #888888;
 }
 `
