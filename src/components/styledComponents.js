@@ -8,13 +8,19 @@ margin: 0;
 padding: 0;
 `
 export const HeaderDiv = styled.div`
-padding: 20px ;
 display: flex;
 justify-content: space-between;
 flex-direction: row;
 max-width: 100%;
 background-color:navy;
 color:white;
+height: 70px;
+align-items: center;
+
+.logo{
+  margin: 20px;
+  
+}
   
 .headerButton{
   border-radius: 5px;
@@ -22,11 +28,12 @@ color:white;
   color:navy;
   display:flex;
   align-items:center;
-  padding: 10px;
+  margin 20px;
+  padding: 15px;
+  
 }
 
 `
-
 export const Jumbotron = styled.div`
 font-family: IBM Plex Mono;
 max-width:100%
