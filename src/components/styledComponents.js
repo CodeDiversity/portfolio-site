@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-width:95%;
-margin: 0 auto;
+width:100%;
+margin: auto;
 
 `
 export const HeaderDiv = styled.div`
