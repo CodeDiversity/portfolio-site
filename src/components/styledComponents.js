@@ -2,9 +2,9 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
 max-width:100%;
-margin: 0 auto;
 box-sizing: border-box;
-
+margin: 0;
+padding: 0;
 `
 export const HeaderDiv = styled.div`
 padding: 20px ;
@@ -39,6 +39,7 @@ height:100%;
 
 .jumboText{
   h1{
+    margin-top: 50px;
     margin-bottom: 15px;
 
   }
