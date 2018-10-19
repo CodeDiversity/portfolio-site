@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-width:100%;
+max-width:100%;
 margin: auto;
 box-sizing: border-box;
 
@@ -11,7 +11,7 @@ padding: 20px ;
 display: flex;
 justify-content: space-between;
 flex-direction: row;
-width: 100%;
+max-width: 100%;
 background-color:navy;
 color:white;
   
@@ -26,9 +26,9 @@ color:white;
 
 `
 
-export const Jumbotron = styled.div `
+export const Jumbotron = styled.div`
 font-family: IBM Plex Mono;
-
+max-width:100%
 padding-top: 5%;
 display:flex;
 align-items: center;
