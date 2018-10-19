@@ -38,6 +38,10 @@ height:100%;
 // border: 1px solid blue;
 
 .jumboText{
+  h1{
+    margin-bottom: 15px;
+
+  }
   font: IBM Plex Mono;
   display: flex;
   flex-direction:column;
