@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
+position: fixed;
+width: 100%;
 max-width: 100%;
 box-sizing: border-box;
 margin: 0;
