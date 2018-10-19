@@ -21,7 +21,7 @@ align-items: center;
 }
   
 .headerButton{
-font-family: IBM Plex Mono;
+
 }
 
 `
