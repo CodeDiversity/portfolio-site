@@ -5,13 +5,11 @@ import JumbotronArea from '../components/jumbotron'
 import { Container } from '../components/styledComponents.js'
 
 const IndexPage = () => (
-  <React.Fragment>
+  <Container>
     <Header />
-    <Container>
+    <JumbotronArea />
+  </Container>
 
-      <JumbotronArea />
-    </Container>
-  </React.Fragment>
 )
 
 export default IndexPage

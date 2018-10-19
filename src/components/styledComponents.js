@@ -9,11 +9,9 @@ padding: 0;
 `
 export const HeaderDiv = styled.div`
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 flex-direction: row;
 max-width: 100%;
-background-color:navy;
-color:white;
 height: 70px;
 align-items: center;
 
@@ -24,8 +22,8 @@ align-items: center;
   
 .headerButton{
   border-radius: 5px;
-  background-color:white;
-  color:navy;
+  background-color:navy;
+  color:White;
   display:flex;
   justify-content: center;
   align-items:center;
