@@ -8,7 +8,7 @@ import {Button} from 'reactstrap'
 const Header = ({ siteTitle }) => (
   <HeaderDiv>
     <p className= 'logo'>Logo Here</p>
-    <Button color="primary">Contact Me</Button>
+    <Button className= 'headerButton'color="primary">Contact Me</Button>
   </HeaderDiv>
 
 

@@ -21,16 +21,7 @@ align-items: center;
 }
   
 .headerButton{
-  border-radius: 5px;
-  background-color:navy;
-  color:White;
-  display:flex;
-  justify-content: center;
-  align-items:center;
-  width: 125px;
-  height: 45px;
-  margin-right: 20px;
-  
+font-family: IBM Plex Mono;
 }
 
 `
