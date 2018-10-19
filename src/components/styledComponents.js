@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-width:100%;
+width:95%;
 margin: 0 auto;
 
 `
@@ -34,7 +34,7 @@ align-items: center;
 flex-direction:column;
 justify-content: space-between;
 height:100%;
-border: 1px solid blue;
+// border: 1px solid blue;
 
 .jumboText{
   font: IBM Plex Mono;
