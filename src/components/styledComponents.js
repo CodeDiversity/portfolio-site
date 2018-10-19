@@ -18,7 +18,7 @@ height: 70px;
 align-items: center;
 
 .logo{
-  margin: 20px;
+  margin-left 20px;
   
 }
   
@@ -27,9 +27,11 @@ align-items: center;
   background-color:white;
   color:navy;
   display:flex;
+  justify-content: center;
   align-items:center;
-  margin 20px;
-  padding: 15px;
+  width: 100px;
+  height: 35px;
+  margin-right: 20px;
   
 }
 
