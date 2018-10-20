@@ -103,4 +103,8 @@ h1{
   margin-bottom 15px;
 }
 
+p{
+  font-size: 1.6rem;
+}
+
 `;
