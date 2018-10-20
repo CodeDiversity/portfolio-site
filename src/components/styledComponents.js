@@ -83,6 +83,11 @@ export const WelcomeDiv = styled.div`
 background-image: linear-gradient(to right,blue,violet);
 color:white;
 overflow: scroll;
+overflow-x:hidden;
+::-webkit-scrollbar{
+  width: 0px;
+  background: transparent;
+}
 height: 100%;
 width: 100%;
 display:flex;
