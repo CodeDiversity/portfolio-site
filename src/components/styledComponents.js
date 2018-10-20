@@ -1,12 +1,12 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.div`
-width: 100%;
-max-width: 100%;
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-`
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+`;
 export const HeaderDiv = styled.div`
 display: flex;
 justify-content: space-around;
@@ -24,7 +24,7 @@ align-items: center;
 
 }
 
-`
+`;
 export const Jumbotron = styled.div`
 font-family: IBM Plex Mono;
 max-width:100%
@@ -61,37 +61,36 @@ height:100%;
   margin-bottom: 75px;
   box-shadow: 5px 10px #888888;
 }
-`
+`;
 
-export const MainSectionDiv = styled.div `
-width: 100%;
-height: 800px;
-display:flex;
-flex-direction: column;
-align-items:center;
-padding-top: 50px;
+export const MainSectionDiv = styled.div`
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+`;
 
-`
-
-export const SkillsDiv= styled.div `
-width: 75%;
-background-color: white;
-height: 500px;
-border-radius: 15px;
-margin-top: -50px;
-
-`
-export const WelcomeDiv= styled.div `
+export const SkillsDiv = styled.div`
+  width: 75%;
+  background-color: white;
+  height: 500px;
+  border-radius: 15px;
+  margin-top: -50px;
+`;
+export const WelcomeDiv = styled.div`
 background-image: linear-gradient(to right,blue,violet);
 color:white;
-height: 400px;
+overflow: scroll;
+height: 100%;
 width: 100%;
 display:flex;
 flex-direction: column;
 align-items:center;
 justify-content:center;
 h1, p {
-  width: 65%;
+  max-width: 55%;
 }
 
 h1{
@@ -99,4 +98,4 @@ h1{
   margin-bottom 15px;
 }
 
-`
+`;
