@@ -63,5 +63,40 @@ height:100%;
 }
 `
 
+export const MainSectionDiv = styled.div `
+width: 100%;
+height: 800px;
+display:flex;
+flex-direction: column;
+align-items:center;
+padding-top: 50px;
 
+`
 
+export const SkillsDiv= styled.div `
+width: 75%;
+background-color: white;
+height: 500px;
+border-radius: 15px;
+margin-top: -50px;
+
+`
+export const WelcomeDiv= styled.div `
+background-image: linear-gradient(to right,blue,violet);
+color:white;
+height: 400px;
+width: 100%;
+display:flex;
+flex-direction: column;
+align-items:center;
+justify-content:center;
+h1, p {
+  width: 65%;
+}
+
+h1{
+  text-align:center;
+  margin-bottom 15px;
+}
+
+`
